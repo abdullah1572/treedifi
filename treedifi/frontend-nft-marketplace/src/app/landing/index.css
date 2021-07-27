@@ -1,0 +1,1105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+    --background-main: #333645;
+    --text-color-yellow: #ffaa06;
+    --text-color-grey: #a8a7b0;
+  }
+
+.button:focus {outline: none;box-shadow: none;}
+.btn:focus {outline: none;box-shadow: none;}
+
+/* landing NFT Banner */
+.landing-nft .header-section{position: relative;padding-top: 100px;padding-bottom: 120px;background-repeat: no-repeat;width: 100%;background-size: cover;background-position: bottom center;}
+.landing-nft .header-section .menu-ab{
+  position: absolute;
+  right: 3%;
+  top: 38%;
+  cursor: pointer;
+}
+.landing-nft .textheader-main .rectangle{
+  position: absolute;
+  left: 0;
+  top: 160px;
+  z-index: -1;
+}
+
+.landing-nft .textheader-main h2{position: relative; z-index: 1; font-family: 'nunito'; font-weight: 700; margin-bottom: 0px; font-size: 72px; line-height: 90px; color: #2C3137;padding-top: 10px;}
+.landing-nft .textheader-main p{font-family: 'nunito'; font-weight: 700; margin-bottom: 0px; font-size: 20px;color: #585E67;padding-top: 22px; padding-bottom: 50px;}
+.landing-nft .header-section .image-wallet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+.landing-nft .header-section .textheader-main button.new{
+  margin-top: 100px;
+  border: none;
+  outline: none;
+  color: #ffffffff;
+  background-color: #3AB88E;
+  font-family: 'kanit';
+  font-weight: 600;
+  font-size: 14px;
+  padding: 6px 15px;
+  border-radius: 50px;
+}
+
+.landing-nft .header-section .textheader-main .buttons button{
+  background-color: #ffffff;
+  border-radius: 6px;
+  width: 204px;
+  height: 58px;
+  color: #191426;
+  font-family: 'nunito';
+  font-weight: bold;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+.landing-nft .header-section .textheader-main .buttons button img{
+  padding-right: 14px;
+}
+.landing-nft .header-section .textheader-main .single-button img{
+  padding-right: 10px;
+}
+.landing-nft .header-section .textheader-main .button-pad{
+  margin-left: 24px;
+}
+.landing-nft .header-section .textheader-main .single-button{
+  background-color: #ffffff;
+  border-radius: 6px;
+  width: 432px;
+  height: 58px;
+  color: #191426;
+  font-family: 'nunito';
+  font-weight: bold;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  margin-top: 18px;
+}
+.landing-nft .header-section .textheader-main .button-banner:hover{color: #fa6634;-ms-box-shadow: rgba(255, 255, 255, 1) 0 0px 0px 40px inset;-o-box-shadow: rgba(255, 255, 255, 1) 0 0px 0px 40px inset;box-shadow: rgb(255 255 255) 0 0px 0px 40px inset;border: 1px solid #fa6634;}
+.landing-nft .header-section .textheader-main .button-banner{outline: none;background-color: #fa6634;border: none;color: #ffffff;font-size: 16px;transition: all 0.3s linear;border-radius: 50px;height: 48px;width: 160px;margin-top: 40px; }
+.landing-nft .textheader-main  .header-image-logo{display: flex;}
+.landing-nft .textheader-main  .header-image-logo .socials-banner{height: 60px;width: 60px;margin-right: 10px;border: 1px solid #ffffff;border-radius: 50%;display: flex;justify-content: center;align-items: center;}
+.landing-nft .textheader-main  .header-image-logo .socials-banner.fir-banner span i{font-size: 20px;}
+.landing-nft .imageback-header img{float: right;padding-top: 70px;width: 118%;position: absolute;}
+.landing-nft .textheader-main  .header-image-logo .socials-banner:hover span i{ color: #f7a507;}
+.landing-nft .textheader-main  .header-image-logo .socials-banner:hover{border: 1px solid #f7a507;}
+.landing-nft .textheader-main  .header-image-logo {padding-top: 30px;}
+
+/* visit guid */
+
+.visitguid{
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.visitguid .image-difi img{
+}
+
+.visitguid .text-steps{
+  display: flex;
+}
+.visitguid .text-steps .step-number h1{
+  color: #ffffff;
+}
+.visitguid .text-steps .step-number h5{
+  background-color: #28A745;
+  border-radius: 50%;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+}
+.visitguid .text-steps .text-visit h2{
+  color: #2C3137;
+  font-family: 'nunito';
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  letter-spacing: 2%;
+}
+.visitguid .text-main{
+  padding-top: 74px;
+}
+
+.visitguid .text-steps{
+  padding-left: 47px;
+}
+.visitguid .text-steps .text-visit{
+  padding-left: 24px;
+}
+.visitguid .text-steps .text-visit p{
+  color: #585E67;
+  font-family: 'nunito';
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 14px;
+  margin-bottom: 0px;
+  letter-spacing: 2%;
+  padding-right: 64px;
+}
+
+.visitguid .text-steps .text-visit h4{
+  color: #3AB88E;
+  font-family: 'nunito';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 52px;
+  letter-spacing: 2%;
+  cursor: pointer;
+}
+
+.visitguid .text-steps .padding-bot{
+  padding-bottom: 52px;
+}
+
+/* explore more */
+
+.exploremore{
+  width: 100%;
+  position: relative;
+  padding-bottom: 120px;
+ 
+}
+.exploremore .left-side h1{
+  color: #2C3137;
+  font-family: 'nunito';
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 0px;
+  line-height: 44px;
+  letter-spacing: 2%;
+  padding-bottom: 24px;
+}
+
+.exploremore .left-side p{
+  color: #585E67;
+  font-family: 'nunito';
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0px;
+  letter-spacing: 2%;
+  line-height: 30px;
+  padding-bottom: 28px;
+}
+
+.exploremore .left-side h4{
+  color: #3AB88E;
+  font-family: 'nunito';
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0px;
+  letter-spacing: 2%;
+}
+
+.exploremore .left-side .outer-div{
+  background-color: #EEF4F5;
+  border-radius: 50px;
+  width: 392px;
+  margin-bottom: 24px;
+  height: 54px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* padding: 14px 24px; */
+}
+
+.exploremore .left-side {
+  padding-left: 70px;
+}
+
+.exploremore .right-side img{
+  float: right;
+  margin-right: 40px;
+}
+
+.exploremore .left-side .outer-div h5{
+  color: #2c3137;
+  font-family: 'nunito';
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0px;
+  line-height: 20px;
+  letter-spacing: 2%;
+  padding-left: 24px;
+}
+
+.exploremore .left-side .outer-div .color-green{
+  color: #ffffff;
+  padding: 6px 12px;
+  font-family: 'kanit';
+  font-weight: 600;
+  margin-right: 18px;
+  font-size: 14px;
+  margin-bottom: 0px;
+  line-height: 20px;
+  letter-spacing: 2%;
+  background-color: #3AB88E;
+  border-radius: 50px;
+}
+
+/* feature roadmap */
+
+.landing-nft .feature-roadmap{position: relative;padding-bottom: 120px; height: 1660px; background-repeat: no-repeat;width: 100%;background-size: cover;}
+.landing-nft .feature-roadmap .upper-text-main-head h1{
+  font-family: 'nunito';
+  line-height: 60px;
+  font-weight: 700;
+  font-size: 54px;
+  margin-bottom: 0px;
+  color: #2C3137;
+  text-align: center;
+  padding-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+.landing-nft .feature-roadmap .upper-text-main-head span{
+  color: #3AB88E;
+  cursor: pointer;
+}
+.landing-nft .feature-roadmap .upper-text-main-head {
+  padding-top: 300px;
+}
+.landing-nft .feature-roadmap .upper-text-main-head .rectangle{
+  position: absolute;
+  top: 36px;
+  left: 300px;
+  z-index: -1;
+}
+.landing-nft .feature-roadmap .upper-text-main-heads .rectangles{
+  position: absolute;
+  top: 36px;
+  right: 380px;
+  z-index: -1;
+}
+.landing-nft .feature-roadmap .upper-text-main-heads {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.landing-nft .feature-roadmap .upper-text-main-heads h1{
+  font-family: 'nunito';
+  line-height: 60px;
+  font-weight: 700;
+  font-size: 54px;
+  margin-bottom: 0px;
+  color: #2C3137;
+  text-align: center;
+  padding-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+.landing-nft .feature-roadmap .upper-text-main-head p{
+  font-family: 'nunito';
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 0px;
+  color: #585E67;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.landing-nft .feature-roadmap .buttons-multi{
+  text-align: center;
+}
+.landing-nft .feature-roadmap .buttons-multi button{
+  margin-right: 14px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  height: 58px;
+  margin-bottom: 24px;
+  padding: 0px 27px;
+  color: #191426;
+  font-family: 'nunito';
+  font-weight: bold;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+.landing-nft .feature-roadmap .buttons-multi button img{
+  padding-right: 16px;
+}
+
+.tabs-head .nav-div{
+  width: 100%;
+  border-bottom: 1px solid #dee2e6;
+}
+.tabs-head .nav-tabs{
+  border: none;
+}
+.tabs-head .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  color: #3AB88E!important;
+  border: none!important;
+  background-color: transparent!important;
+  border-bottom: 4px solid #3AB88E!important;
+}
+.tabs-head .nav-tabs a{
+  font-family: 'nunito';
+  color: #585E67;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+.tabs-head .nav-tabs a:hover{
+  color: #3AB88E!important;
+}
+
+.feature-roadmap .tabs-head .main-button .button{
+  background-color: #EEF4F5;
+  display: flex;
+  padding: 11px 38px 11px 24px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 12px;
+  justify-content: center;
+  margin-bottom: 22px;
+  align-items: center;
+}
+.feature-roadmap .tabs-head .main-button .button span{
+ background-color: #3AB88E;
+ color: #ffffff;
+ font-family: 'kanit';
+ font-size: 14px;
+ font-weight: 600;
+ border-radius: 50px;
+ padding: 6px 12px;
+ margin-right: 12px;
+}
+.feature-roadmap .tabs-head .main-button .button h5{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'nunito';
+  color: #2C3137;
+  margin-bottom: 0px;
+}
+.feature-roadmap .tabs-head .main-button{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+
+}
+
+/* long run  */
+.longrun{
+  width: 100%;
+}
+.longrun .leftside{
+  margin-left: 100px;
+  padding-top: 90px;
+}
+
+.longrun .text-main h2{
+  color: #2C3137;
+  font-family: 'nunito';
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 0px;
+  line-height: 44px;
+  letter-spacing: 2%;
+  padding-bottom: 24px;
+  padding-right: 40px;
+}
+
+.longrun .text-main p{
+  color: #585E67;
+  font-family: 'nunito';
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0px;
+  line-height: 30px;
+  letter-spacing: 2%;
+  padding-bottom: 24px;
+  padding-right: 30px;
+}
+
+.longrun .text-main .OTHER-STYLE{
+  color: #585E67;
+  font-family: 'nunito';
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0px;
+  line-height: 26px;
+  letter-spacing: 2%;
+  padding-bottom: 0px;
+  padding-right: 30px;
+}
+.longrun .text-main{
+  margin-left: 34px;
+}
+.longrun .checked{
+  margin-left: 34px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.longrun .checked .steps-checked span i{
+  color: #28A745;
+  background-color: #EBF6EC;
+  font-size: 20px;
+  font-weight: 400;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.longrun .checked .steps-checked h4{
+  color: #2C3137;
+  font-family: 'nunito';
+  padding-right: 28px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0px;
+  line-height: 26px;
+  letter-spacing: 2%;
+}
+.longrun .checked .steps-checked{
+  padding-bottom: 18px;
+}
+.longrun .checked .steps-checked{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.longrun .checked h3{
+  font-family: 'nunito';
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #3AB88E;
+  padding-left: 100px;
+}
+.longrun .checked h3 span{
+  color: #222222;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+/* stay in loop */
+
+.stay-in-loop{
+  position: relative;
+  width: 100%;
+  padding-top: 130px;
+}
+.stay-in-loop .upper-text-main-head h1{
+  font-family: 'nunito';
+  line-height: 60px;
+  font-weight: 700;
+  font-size: 54px;
+  margin-bottom: 0px;
+  color: #2C3137;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.stay-in-loop .upper-text-main-head p{
+  font-family: 'nunito';
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 0px;
+  color: #585E67;
+  text-align: center;
+  padding-bottom: 56px;
+}
+.stay-in-loop .first-slider .item .card .down-trending h4{
+  font-family: 'nunito';
+  line-height: 36px;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 0px;
+  padding-top: 18px;
+  color: #2C3137;
+}
+
+.stay-in-loop .first-slider .item .card .down-trending p{
+  font-family: 'nunito';
+  line-height: 26px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-top: 36px;
+  color: #585E67;
+}
+.stay-in-loop .first-slider .item .card .down-trending h6{
+  font-family: 'nunito';
+  line-height: 26px;
+  font-weight: 700;
+  padding-top: 36px;
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #585E67;
+  padding-bottom: 38px;
+}
+.stay-in-loop .first-slider .item .card .down-trending h6 .color-jun{
+  font-family: 'nunito';
+  line-height: 26px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #3AB88E;
+  cursor: pointer;
+}
+.stay-in-loop .first-slider .item .card .down-trending{
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.stay-in-loop .first-slider .item .card{
+  border: 0px;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 .5rem 1rem rgba(175, 174, 174, 0.15)!important;
+}
+.stay-in-loop .first-slider .item .card:hover{
+
+}
+.stay-in-loop .owl-carousel.owl-drag .owl-item{
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 24px;
+}
+.stay-in-loop .first-slider .item .card img{
+  border-radius: 15px;
+}
+
+.stay-in-loop .owl-carousel .owl-dots.disabled{
+  display: block;
+  text-align: center;
+}
+
+.stay-in-loop .owl-carousel .owl-dots span {
+  width:10px;
+  height:10px;
+  margin:5px 7px;
+  background: #C2CBC8;
+  display:block;
+  -webkit-backface-visibility:visible;
+  -webkit-transition:opacity 200ms ease;
+  -moz-transition:opacity 200ms ease;
+  -ms-transition:opacity 200ms ease;
+  -o-transition:opacity 200ms ease;
+  transition:opacity 200ms ease;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  border-radius:30px;
+}
+.owl-carousel .owl-dots .active span {
+  width:10px;
+  height:10px;
+  margin:5px 7px;
+  background: #869691;
+  display:block;
+  -webkit-backface-visibility:visible;
+  -webkit-transition:opacity 200ms ease;
+  -moz-transition:opacity 200ms ease;
+  -ms-transition:opacity 200ms ease;
+  -o-transition:opacity 200ms ease;
+  transition:opacity 200ms ease;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  border-radius:30px;
+}
+
+/* intial presale */
+.intial-presale .padding-padd{
+  padding-left: 99px;
+  padding-right: 102px;
+}
+.intial-presale{
+  width: 100%;
+  background-color: #3AB88E;
+  height: 540px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 130px;
+  margin-bottom: 120px;
+}
+.intial-presale .egg{
+  position: absolute;
+  top: -198px;
+  left: -81px;
+  width: 803px;
+  height: 912px;
+}
+.intial-presale .top{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.intial-presale .bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.intial-presale .image-difi{
+  padding-top: 64px;
+}
+
+.intial-presale .text-head-main h1{
+  font-family: 'nunito';
+  line-height: 42px;
+  font-weight: 700;
+  font-size: 38px;
+  padding-top: 64px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.intial-presale .text-head-main p{
+  font-family: 'nunito';
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 24px;
+  padding-bottom: 88px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.intial-presale .text-head-main{
+  padding-left: 114px;
+}
+.intial-presale .checked{
+  margin-left: 114px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.intial-presale .checked .steps-checked span i{
+  color: #28A745;
+  background-color: #EBF6EC;
+  font-size: 20px;
+  font-weight: 400;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.intial-presale .checked .steps-checked h4{
+  color: #2C3137;
+  font-family: 'nunito';
+  padding-right: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0px;
+  line-height: 26px;
+  letter-spacing: 2%;
+}
+.intial-presale .checked .steps-checked{
+  background-color: #ffffff;
+  margin-right: 14px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+.intial-presale .checked .steps-checked{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 13px 12px;
+  border-radius: 6px;
+}
+
+/* Faq */
+
+.Faq .upper-text-main-head h1{
+  font-family: 'nunito';
+  line-height: 60px;
+  font-weight: 700;
+  font-size: 54px;
+  margin-bottom: 0px;
+  color: #2C3137;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Faq .upper-text-main-head p{
+  font-family: 'nunito';
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 0px;
+  color: #585E67;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.Faq .accordion {
+  position: relative;
+}
+.Faq .accordion .card {
+  background-color: #ffffff;
+  border: 1px solid #EEF0F4;
+  border-bottom: 1px solid #EEF0F4!important;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.Faq .accordion .card .card-header {
+  background-color: #ffffff;
+  border: none;
+}
+.Faq .accordion .card .card-header h5 button.collapsed {
+  display: block;
+  
+  width: 100%;
+  text-align: left;
+  height: 45px;
+  font-size: 16px;
+  font-family: 'nunito';
+  color: #585E67;
+  font-weight: 700;
+  padding: 8px 15px;
+  text-decoration: none !important;
+}
+.Faq .accordion .card .card-header h5 button{
+  display: block;
+  width: 100%;
+  font-family: 'nunito';
+  text-align: left;
+  height: 45px;
+  font-size: 18px;
+  color: #585E67;
+  font-weight: 700;
+  padding: 8px 15px; 
+  text-decoration: none !important;
+  display: flex!important;
+}
+.Faq .accordion .card .card-header h5 button:hover {
+  text-decoration: none;
+}
+.accordion .card-header .btn-link .icon,.accordion .card-header .btn-link.collapsed .icon {
+  display: none;
+}
+.Faq .accordion .card .card-header h5 button{
+  display: flex;
+  justify-content: space-between;
+}
+.accordion .card-header .btn-link.collapsed .icon-green{
+  display: block;
+}
+.accordion .card-header .btn-link .icon-grey{
+  display: block;
+  top: 12%;
+}
+.Faq .accordion .card.card-nine .card-body{
+  padding: 27px 25px 25px;
+}
+.Faq .accordion .card .card-body {
+  padding: 0 25px 25px;
+  font-size: 17px;
+  line-height: 1.8em; 
+  color: #c7c7c9;
+}
+.accordion>.card:not(:last-of-type){
+  border-bottom-right-radius: 5px!important;
+  border-bottom-left-radius: 5px!important;
+}
+.accordion>.card:not(:first-of-type) {
+  border-top-left-radius: 5px!important;
+  border-top-right-radius: 5px!important;
+}
+ .footer-back{
+  background-color: #282a37;
+}
+.Faq .get-in-touch h1{
+  font-family: 'nunito';
+  background-color: #F6F9FC;
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #585E67;
+  padding: 12px 36px;
+  border-radius: 6px;
+}
+.Faq .get-in-touch .unanswer{
+  color: #3AB88E;
+  cursor: pointer;
+}
+.Faq .get-in-touch{
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+
+
+
+/* Media Query */
+
+@media(max-width: 1920px){
+  .intial-presale .green{
+    display: none;
+  }
+  .intial-presale .egg{
+    width: 996px;
+  }
+  .intial-presale .image-difi img{
+    margin-left: 134px;
+  }
+}
+
+@media(max-width: 1600px){
+  .intial-presale .egg {
+    width: 906px;
+  }
+  .intial-presale .image-difi img {
+    margin-left: 77px;
+  }
+}
+
+@media(max-width: 1440px){
+  .intial-presale .image-difi img {
+    margin-left: 34px;
+  }
+  .intial-presale .egg {
+    width: 824px;
+  }
+}
+
+/* Laptop View */
+
+@media(max-width: 1400px){}
+
+/* Small laptop View */
+
+@media(max-width: 1199px){
+  .landing-nft .textheader-main h2{font-size: 60px;line-height: 78px;}
+  .landing-nft .textheader-main .rectangle{top: 140px;width: 337px;}
+  .landing-nft .imageback-header img {width: 114%;left: -45px;padding-top: 126px;}
+  .landing-nft .header-section .textheader-main button.new{margin-top: 74px;}
+  .visitguid{padding-top: 60px;}
+  .visitguid .text-steps .text-visit h4{padding-bottom: 20px;}
+  .visitguid .text-steps .padding-bot{padding-bottom: 20px;}
+  .visitguid .image-difi img {width: 116%;padding-top: 38px;}
+  .exploremore .right-side img{margin-right: 0px;}
+  .longrun .leftside {margin-left: 60px;padding-top: 57px;}
+  .longrun .leftside img{width: 106%;}
+  .landing-nft .feature-roadmap .upper-text-main-head h1{font-size: 50px;}
+  .landing-nft .feature-roadmap .upper-text-main-heads h1{font-size: 50px;}
+  .intial-presale .top {top: -30px;left: -61px;}
+  .intial-presale .bottom {bottom: -68px;left: -55px;}
+  .intial-presale .padding-padd {padding-left: 25px;padding-right: 32px;}
+  .intial-presale .image-difi img{width: 100%;}
+  .intial-presale .image-difi{padding-top: 134px;}
+  .intial-presale .text-head-main p{padding-bottom: 38px;}
+  .intial-presale .text-head-main {padding-left: 78px;}
+  .intial-presale .checked{margin-left: 87px;}
+  .intial-presale .egg{width: 562px;}
+  .landing-nft .feature-roadmap .upper-text-main-head .rectangle{width: 198px;left: 231px;}
+  .landing-nft .feature-roadmap .upper-text-main-heads .rectangles{width: 218px;right: 304px;}
+  .stay-in-loop .first-slider .item .card .down-trending p{padding-top: 20px;}
+  .stay-in-loop .first-slider .item .card .down-trending h6{padding-top: 20px;padding-bottom: 28px;}
+}
+
+/* Tablet View */
+
+@media(max-width: 991px){
+  .intial-presale .image-difi img{ margin-left: 0px;}
+  .landing-nft .textheader-main h2{font-size: 40px;line-height: 40px;padding-right: 82px;}
+  .landing-nft .textheader-main p{font-size: 17px;}
+  .landing-nft .textheader-main .rectangle{top: 78px;width: 222px;}
+  .landing-nft .imageback-header img {width: 114%;left: -27px;padding-top: 40px;}
+  .landing-nft .header-section .textheader-main button.new{margin-top: 20px;}
+  .visitguid{padding-top: 60px;}
+  .visitguid .text-steps{padding-left: 0px;}
+  .visitguid .text-steps .text-visit p{padding-right: 0px;font-size: 14px;}
+  .visitguid .text-steps .step-number h5{width: 36px;height: 36px;font-size: 14px;}
+  .visitguid .text-main{padding-top: 30px;}
+  .visitguid .text-steps .text-visit h4{padding-bottom: 20px;}
+  .visitguid .text-steps .text-visit h2{font-size: 20px;}
+  .visitguid .text-steps .padding-bot{padding-bottom: 20px;}
+  .visitguid .image-difi img {width: 116%;padding-top: 38px;}
+  .exploremore .left-side p{font-size: 16px;padding-bottom: 18px;line-height: 26px;}
+  .exploremore .left-side h1{font-size: 36px;padding-bottom: 12px;}
+  .exploremore .left-side .outer-div .color-green{padding: 4px 12px;}
+  .exploremore .left-side .outer-div h5{font-size: 14px;}
+  .exploremore .left-side .outer-div{height: 48px;width: 357px;}
+  .exploremore .left-side{padding-left: 25px;}
+  .exploremore .right-side img{width: 100%;}
+  .exploremore .right-side img{margin-right: 0px;}
+  .longrun .leftside {margin-left: 30px;padding-top: 57px;}
+  .longrun .text-main h2{padding-right: 0px;font-size: 36px;}
+  .longrun .checked .steps-checked span i{width: 28px;height: 28px;font-size: 16px;margin-right: 7px;}
+  .longrun .text-main h4{display: none;}
+  .longrun .checked .steps-checked {padding-bottom: 12px;}
+  .longrun .checked .steps-checked h4{padding-right: 12px;font-size: 14px;}
+  .longrun .text-main p{font-size: 16px;line-height: 26px;padding-bottom: 9px;padding-right: 0px;}
+  .longrun .checked h3{padding-left: 0px;font-size: 14px;}
+  .longrun .text-main .OTHER-STYLE{padding-right: 0px;padding-bottom: 18px;}
+  .longrun .leftside img{width: 106%;}
+  .landing-nft .feature-roadmap .upper-text-main-head h1{font-size: 40px;}
+  .landing-nft .feature-roadmap .upper-text-main-heads h1{font-size: 40px;}
+  .landing-nft .feature-roadmap .upper-text-main-head p{font-size: 17px;}
+  .intial-presale .top {top: -30px;left: -61px;}
+  .intial-presale .bottom {bottom: -68px;left: -55px;}
+  .landing-nft .feature-roadmap .buttons-multi button{font-size: 16px;width: unset;height: unset;padding: 4px 12px;}
+  .feature-roadmap .tabs-head .main-button .button{padding: 10px 30px 10px 24px;}
+  .feature-roadmap .tabs-head .main-button .button h5{font-size: 14px;}
+  .feature-roadmap .tabs-head .main-button .button span{padding: 4px 12px;}
+  .stay-in-loop .upper-text-main-head h1{font-size: 40px;}
+  .stay-in-loop .first-slider .item .card .down-trending p {padding-top: 12px;}
+  .stay-in-loop .first-slider .item .card .down-trending p{font-size: 14px;line-height: 21px;}
+  .stay-in-loop .first-slider .item .card .down-trending h4{font-size: 19px;line-height: 27px;}
+  .stay-in-loop .upper-text-main-head p{font-size: 17px;}
+  .tabs-head .nav-tabs a{font-size: 16px;}
+  .landing-nft .feature-roadmap .upper-text-main-head p{padding-bottom: 40px;}
+  .intial-presale .padding-padd {padding-left: 25px;padding-right: 6px;}
+  .intial-presale .image-difi img{width: 126%;}
+  .intial-presale .image-difi{padding-top: 134px;}
+  .intial-presale .text-head-main p{padding-bottom: 38px;}
+  .intial-presale .text-head-main {padding-left: 83px;}
+  .intial-presale .checked .steps-checked h4{padding-right: 7px;font-size: 14px;}
+  .intial-presale{height: 520px;}
+  .intial-presale .text-head-main p{font-size: 16px;}
+  .intial-presale .checked .steps-checked{padding: 10px 11px;}
+  .intial-presale .checked{margin-left: 81px;}
+  .intial-presale .egg{width: 412px;}
+  .landing-nft .feature-roadmap .upper-text-main-head .rectangle{width: 162px;left: 157px;}
+  .landing-nft .feature-roadmap .upper-text-main-heads .rectangles{width: 247px;right: 221px;}
+  .stay-in-loop .first-slider .item .card .down-trending h6{padding-top: 14px;padding-bottom: 20px;font-size: 13px;line-height: 10px;}
+  .stay-in-loop .upper-text-main-head p{padding-bottom: 20px;}
+  .stay-in-loop .upper-text-main-head h1{padding-bottom: 10px;}
+  .stay-in-loop .first-slider .item .card .down-trending h6 .color-jun{font-size: 13px;line-height: 18px;}
+  .Faq .upper-text-main-head h1{font-size: 40px;}
+  .landing-nft .header-section .menu-ab{width: 28px;top: 29%;right: 4%;}
+  .Faq .upper-text-main-head p{ font-size: 17px;}
+  .landing-nft .textheader-main p{padding-top: 15px;padding-bottom: 30px;}
+  .landing-nft .header-section .textheader-main .buttons button img {padding-right: 14px;width: 28%;}
+  .landing-nft .header-section .textheader-main .button-pad {margin-left: 14px;}
+  .landing-nft .header-section .textheader-main .buttons button{font-size: 16px;width: 150px;height: 46px;}
+  .landing-nft .header-section .textheader-main .single-button{width: 315px;height: 46px;font-size: 16px;}
+  .landing-nft .header-section .textheader-main .single-button img{width: 15%;}
+  .landing-nft .header-section .textheader-main button.new{padding: 5px 15px;}
+}
+/* Mobile View */
+
+@media(max-width: 600px){
+  .landing-nft .header-section{background-size: 100% 100%;padding-bottom: 62px;}
+  .landing-nft .textheader-main h2{line-height: 50px;padding-right: 75px;padding-left: 75px;font-size: 40px;text-align: center;}
+  .landing-nft .textheader-main .rectangle{top: 116px;left: 88px;}
+  .landing-nft .header-section .menu-ab{display: none;}
+  .landing-nft .textheader-main p{text-align: center;font-size: 15px;}
+  .landing-nft .textheader-main{text-align: center;}
+  .landing-nft .header-section .textheader-main button.new{display: block;}
+  .landing-nft .header-section .textheader-main .single-button{ width: 346px;}
+  .landing-nft .header-section .textheader-main .buttons button{width: 166px;}
+  .landing-nft .textheader-main p{padding-bottom: 40px;}
+  .landing-nft .imageback-header img{position: unset;width: 100%;padding-top: 0px;}
+  .landing-nft .header-section .textheader-main .single-button{display: inline-flex;justify-content: flex-start;align-items: center;}
+  .landing-nft .header-section .textheader-main .single-button img{margin-left: 17px;}
+  .landing-nft .header-section .image-wallet{text-align: center;display: block;padding-top: 50px;}
+  .landing-nft .header-section .image-wallet .margin-right{ margin-right: 30px;}
+  .landing-nft .header-section .image-wallet img{margin-bottom: 20px;}
+  .visitguid .image-difi img{width: 100%;padding-top: 8px;}
+  .visitguid{padding-bottom: 70px;}
+  .exploremore .left-side{padding-left: 4px;}
+  .exploremore .left-side h1{font-size: 23px;line-height: 30px;}
+  .exploremore .left-side p{font-size: 14px;line-height: 24px;}
+  .exploremore .left-side h4{font-size: 16px;}
+  .longrun .leftside img{width: 100%;}
+  .exploremore{padding-bottom: 70px;}
+  .longrun .text-main h2{font-size: 23px;padding-bottom: 7px;padding-top: 10px;}
+  .landing-nft .feature-roadmap .upper-text-main-head .rectangle{left: 67px;top: 35px;width: 111px;}
+  .landing-nft .feature-roadmap .upper-text-main-head h1{padding-bottom: 8px;}
+  .landing-nft .feature-roadmap .buttons-multi button img{width: 27%;}
+  .landing-nft .feature-roadmap .buttons-multi .main-image{width: 39%;}
+  .landing-nft .feature-roadmap .buttons-multi button{padding: 4px 12px;height: 50px;}
+  .landing-nft .feature-roadmap{background-size: 100% 100%;height: auto;}
+  .landing-nft .feature-roadmap .upper-text-main-head h1{font-size: 28px;}
+  .landing-nft .feature-roadmap .upper-text-main-heads h1{font-size: 28px;}
+  .landing-nft .feature-roadmap .upper-text-main-heads .rectangles {width: 178px;right: 108px;top: 34px;}
+  .landing-nft .feature-roadmap .tabs-head .nav-div .nav-link{padding: .5rem .1rem;}
+  .landing-nft .feature-roadmap .upper-text-main-heads{padding-top: 75px;}
+  .landing-nft .feature-roadmap .upper-text-main-heads h1{padding-bottom: 20px;}
+  .stay-in-loop .upper-text-main-head h1{font-size: 28px;}
+  .stay-in-loop .upper-text-main-head p{font-size: 16px; padding-bottom: 70px;}
+  .stay-in-loop{padding-top: 88px;}
+  .stay-in-loop .first-slider .item .card .down-trending h4 {font-size: 32px;line-height: 36px;padding-bottom: 40px;}
+  .stay-in-loop .first-slider .item .card .down-trending p {font-size: 16px;line-height: 26px;padding-bottom: 40px;}
+  .stay-in-loop .first-slider .item .card .down-trending h6{font-size: 16px;padding-bottom: 24px;}
+  .stay-in-loop .first-slider .item .card .down-trending h6 .color-jun{font-size: 16px;padding-bottom: 24px;}
+  .stay-in-loop .first-slider .owl-dots{text-align: center;}
+  .Faq .upper-text-main-head h1{font-size: 28px;}
+  .Faq .upper-text-main-head p{font-size: 16px;}
+  .intial-presale{height: auto;}
+  .intial-presale .egg{display: none;}
+  .intial-presale .padding-padd {padding-left: 17px;padding-right: 17px;}
+  .intial-presale .image-difi img { width: 100%;}
+  .intial-presale .text-head-main{padding-left: 0px;}
+  .intial-presale .checked{margin-left: 0px;}
+  .intial-presale .checked .steps-checked{margin-right: 10px;margin-left: 10px;}
+  .intial-presale .checked{display: flex;justify-content: center;}
+  .intial-presale .text-head-main h1{font-size: 30px;}
+  .intial-presale{background-color: unset;margin-bottom: 74px;}
+  .intial-presale .green{position: absolute;width: 100%;height: 546px;display: block;}
+  .intial-presale .bottom {bottom: -71px;left: -39px;}
+  .intial-presale .top {top: 546px;left: -61px;}
+  .intial-presale .image-difi img{padding-bottom: 74px;}
+  .intial-presale .image-difi{padding-top: 189px;}
+}
+
+/* Extra small View */
+
+@media(max-width: 400px){
+  .landing-nft .textheader-main .rectangle{left: 64px;}
+  .landing-nft .textheader-main h2{padding-right: 48px;padding-left: 48px;}
+  .landing-nft .header-section .textheader-main .button-pad{margin-left: 10px;}
+  .landing-nft .header-section .image-wallet .margin-right{margin-right: 14px;}
+  .exploremore .left-side .outer-div .color-green{margin-right: 10px;}
+  .exploremore .left-side .outer-div{width: 332px;}
+  .exploremore .left-side .outer-div h5{padding-left: 18px;}
+  .longrun .text-main p{font-size: 14px;}
+  .longrun .text-main .OTHER-STYLE{font-size: 14px;}
+  .landing-nft .feature-roadmap .upper-text-main-head p{font-size: 14px;line-height: 26px;}
+  .landing-nft .feature-roadmap .upper-text-main-head .rectangle{left: 42px;}
+  .landing-nft .feature-roadmap .upper-text-main-heads .rectangles{right: 83px;}
+  .stay-in-loop .upper-text-main-head p{font-size: 14px;line-height: 24px;}
+  .intial-presale .checked .steps-checked {margin-right: 3px;margin-left: 3px;}
+  .intial-presale .text-head-main h1{font-size: 27px;}
+  .Faq .upper-text-main-head p{font-size: 14px;}
+  .Faq .accordion .card .card-header h5 button.collapsed{font-size: 14px;}
+  .Faq .accordion .card .card-header h5 button{font-size: 16px;}
+  .Faq .accordion .card .card-body{font-size: 14px;}
+  .Faq .get-in-touch h1{font-size: 14px;}
+}
+
+@media(max-width: 360px){
+  .exploremore .left-side .outer-div h5{padding-left: 10px;font-size: 12px;}
+  .exploremore .left-side .outer-div{width: 284px;}
+  .landing-nft .header-section .textheader-main .single-button{width: 286px;font-size: 14px;}
+  .landing-nft .header-section .textheader-main .buttons button{font-size: 14px;}
+  .landing-nft .header-section .textheader-main .button-pad{margin-left: 6px;}
+  .landing-nft .header-section .textheader-main .buttons button{width: 142px;}
+  .landing-nft .textheader-main h2 {padding-right: 56px;padding-left: 56px;}
+  .landing-nft .textheader-main .rectangle{width: 160px;}
+  .landing-nft .feature-roadmap .upper-text-main-head .rectangle{left: 13px;}
+  .landing-nft .feature-roadmap .upper-text-main-heads .rectangles{right: 56px;}
+  .feature-roadmap .tabs-head .main-button .button {padding: 10px 19px 10px 17px;}
+  .intial-presale .green{height: 692px;}
+  .intial-presale .image-difi img{padding-bottom: 148px;}
+  .intial-presale .top{top: 692px;}
+  .intial-presale .image-difi {padding-top: 219px;}
+  .Faq .get-in-touch h1 {font-size: 13px;padding: 12px 10px;}
+  .intial-presale .text-head-main p{line-height: 28px; font-size: 14px;}
+  .tabs-head .nav-tabs a{font-size: 14px;}
+ 
+}

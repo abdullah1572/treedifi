@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url("https://use.typekit.net/mio5uxr.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root{
+    --background-main: #333645;
+    --text-color-yellow: #f47a2f;
+    --text-color-grey: #a8a7b0;
+  }
+
+/* footer main new  */
+.main-footer{position: relative;width: 100%;padding: 120px 0px 50px;background-position: top center;background-size: cover;background-image: url(../../static/images/landing/treedifi/footer-bg.png);}
+.main-footer .main-div h1{font-family: 'nunito';line-height: 24px;font-weight: 700;font-size: 16px;margin-bottom: 0px;color: #585E67;}
+.main-footer .main-div span{color: #ffffff;}
+.main-footer .main-div{padding-top: 100px;display: flex;justify-content: space-between;align-items: center;}
+.main-footer .main-div .socials a{text-decoration: none;padding-right: 30px;}
+
+@media(max-width: 991px){
+.main-footer{padding: 90px 0px 38px;}
+.main-footer .widgets-section .medium-padd{padding-left: 60px;}
+}
+
+@media(max-width: 767px){
+.main-footer .widgets-section .medium-padd{padding-left: 0px;}
+.main-footer .widgets-section .medium-padds{padding-top: 20px;}
+.main-footer .widgets-section .medium-paddss{padding-top: 30px;}
+}
+
+@media(max-width: 360px){
+.main-footer .footer-column .footer-widget .widget-content .text{font-size: 16px;}
+.main-footer .footer-logo img{width: 58%;}
+}
